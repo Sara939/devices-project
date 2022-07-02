@@ -1,0 +1,30 @@
+#grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        ' main main main main main'
+        ' main main main main main'
+        'main main main main main'
+        'footer footer footer footer footer';
+    padding:2px;
+    height: 100%;
+}
+
+#header{
+    grid-area: header;
+}
+img{
+    height:20vh;
+    width: 10vw;
+}
+
+#main{
+    grid-area: main;
+
+}
+.footer{
+   grid-area: footer;
+}
+
+#grid-container > div {
+}
