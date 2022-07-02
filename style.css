@@ -14,17 +14,29 @@
     grid-area: header;
 }
 img{
-    height:20vh;
-    width: 10vw;
+    height:10vh;
+    width: 5vw;
 }
 
 #main{
     grid-area: main;
 
 }
-.footer{
+#footer{
    grid-area: footer;
 }
-
-#grid-container > div {
+.text-center{
+    color:rgb(105, 105, 105) ;
+    font-size: small;
 }
+
+@media (max-width: 575px){
+    img{
+        display: none;
+    }
+    .navbar-expand-sm .navbar-collapse {
+    display:flex;
+
+    }
+}
+
