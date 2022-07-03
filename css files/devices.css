@@ -40,3 +40,17 @@ img{
 
     }
 }
+
+
+
+
+.img-thumbnail{
+    width:95%;
+    
+}
+button{
+    width: auto;
+    height: auto;
+    background-color: red;
+
+}
