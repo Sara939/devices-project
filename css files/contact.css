@@ -20,6 +20,7 @@ img{
 
 #main{
     grid-area: main;
+    padding: 7%;
 
 }
 .footer{
@@ -29,6 +30,16 @@ img{
     color:rgb(105, 105, 105) ;
     font-size: small;
 }
+
+#contact_form{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
 
 @media (max-width: 575px){
     img{

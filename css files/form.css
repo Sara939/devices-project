@@ -33,11 +33,13 @@ img{
 
 #addingform{
     border: 2px solid black;
-    width: 50vw;
+    width: 50%;
     margin: auto;
     padding: 3%;
-    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 @media (max-width: 575px){
     img{
@@ -47,4 +49,6 @@ img{
     display:flex;
 
     }
+
+
 }
