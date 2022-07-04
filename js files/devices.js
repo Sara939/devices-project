@@ -31,9 +31,10 @@ function printdevices() {
 
     getdeviceinfo().then((answer) => {answer.forEach(element => {
     row_container.innerHTML += `<div class="col-3" id="${element.id}">
+    <img class="img-thumbnail" src="${element.picture}"/>
     ${element.price} ${element.isAvailable} ${element.createdAt}
     ${element.color} ${element.brand} ${element.ram}
-    <img class="img-thumbnail" src="${element.picture}"/>
+    
     <button onclick="deletdevice('${element.id}')">&#9940;</button>
     </div>
     `

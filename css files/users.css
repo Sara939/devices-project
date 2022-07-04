@@ -20,6 +20,7 @@ img{
 
 #main{
     grid-area: main;
+    padding: 7%;
 
 }
 .footer{
@@ -30,7 +31,8 @@ img{
     font-size: small;
 }
 
-#grid-container > div {
+th, tr, td{
+    border: 2px solid black;
 }
 
 @media (max-width: 575px){
@@ -38,7 +40,7 @@ img{
         display: none;
     }
     .navbar-expand-sm .navbar-collapse {
-    display:flex;
-
+    display:block;
     }
+
 }
