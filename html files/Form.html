@@ -52,7 +52,48 @@
 
 
 
-<div id="main" style="position: fixed; z-index: -99; width: 100%; height: 100%" >
+<div id="main" >
+  <form id="addingform">
+    <div>
+      <label for="Object ID">Object ID</label>
+      <input type="number" class="form-control" id="idInput">
+      <small >Chose from 0-14</small>
+    </div>
+    <div>
+      <label for="price">Price</label>
+      <input type="text" class="form-control" id="priceInput">
+    </div>
+    <div>
+      <label for="isAvailable">isAvailable</label>
+      <input type="text" class="form-control" id="isInput">
+      <small >True or False</small>
+    </div>
+    <div>
+      <label for="createdAt">createdAt</label>
+      <input type="date" class="form-control" id="createdAtInput">
+    </div>
+    <div>
+      <label for="color">color</label>
+      <input type="color" class="form-control" id="colorInput">
+    </div>
+    <div>
+      <label for="brand">brand</label>
+      <input type="text" class="form-control" id="brandInput">
+    </div>
+    <div>
+      <label for="ram">ram</label>
+      <input type="number" class="form-control" id="ramInput">
+    </div>
+    <div>
+      <label for="picture">picture</label>
+      <input type="text" class="form-control" id="pictureInput">
+    </div>
+    <div>
+      <input type="checkbox" id="exampleCheck1">
+      <label class="form-check-label" for="Checkinfo">Check box if all information is correct</label>
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="postdevice()">Submit</button>
+  </form>
 
 </div>
 
@@ -90,6 +131,6 @@
 </div>
     
 
-    <script src="main.js"></script>
+    <script src="/js files/form.js"></script>
 </body>
 </html>

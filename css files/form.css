@@ -20,6 +20,7 @@ img{
 
 #main{
     grid-area: main;
+    padding: 7%;
 
 }
 .footer{
@@ -28,6 +29,14 @@ img{
 .text-center{
     color:rgb(105, 105, 105) ;
     font-size: small;
+}
+
+#addingform{
+    border: 2px solid black;
+    width: 50vw;
+    margin: auto;
+    padding: 3%;
+    height: 50%;
 }
 
 @media (max-width: 575px){
