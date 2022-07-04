@@ -53,11 +53,10 @@
 
 
 <div id="main" >
-  <form id="addingform">
+  <form id="addingform" onSubmit = event.preventDefault() >
     <div>
       <label for="Object ID">Object ID</label>
       <input type="number" class="form-control" id="idInput">
-      <small >Chose from 0-14</small>
     </div>
     <div>
       <label for="price">Price</label>
