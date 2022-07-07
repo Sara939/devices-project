@@ -41,14 +41,8 @@ img{
 }
 
 
-@media (max-width: 575px){
+@media (max-width: 992px){
     img{
         display: none;
     }
-    .navbar-expand-sm .navbar-collapse {
-    display:flex;
-
-    }
-
-
 }

@@ -12,25 +12,12 @@ async function getdeviceinfo() {
     finally { }
 }
 
-// function printdevices(){
-
-//     getdeviceinfo().then((answer)=> {answer.forEach(element => {   
-
-//         for (const key in element) {
-//             main.innerHTML+= `${key} : ${element[key]}` ;
-//         }
-// })})
-
-// }
-// printdevices();
-
-
 
 
 function printdevices() {
 
     getdeviceinfo().then((answer) => {answer.forEach(element => {
-    row_container.innerHTML += `<div class="col-3" id="${element.id}">
+    row_container.innerHTML += `<div class="md-col-3 xs-col-12" id="${element.id}">
     <img class="img-thumbnail" src="${element.picture}"/>
     ${element.price} ${element.isAvailable} ${element.createdAt}
     ${element.color} ${element.brand} ${element.ram}
@@ -43,7 +30,6 @@ function printdevices() {
 }
 
 printdevices()
-
 
 
 

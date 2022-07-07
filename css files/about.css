@@ -31,12 +31,32 @@ img{
     font-size: small;
 }
 
-@media (max-width: 575px){
+#article_id{
+    display: flex;
+    flex-direction: row;
+}
+
+#article_id > div{
+    padding: 3%;
+    width: 50vw;
+}
+#about_img{
+    height: 55vh;
+    width: 40vw;
+
+}
+
+@media (max-width: 992px){
     img{
         display: none;
     }
-    .navbar-expand-sm .navbar-collapse {
-    display:flex;
-
+    #article_id{
+        display: block;
     }
+    #about_img{
+        display: block;
+        width: 30vh;
+        height: 20vh;
+    }
+
 }
