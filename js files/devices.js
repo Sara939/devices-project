@@ -17,7 +17,7 @@ async function getdeviceinfo() {
 function printdevices() {
 
     getdeviceinfo().then((answer) => {answer.forEach(element => {
-    row_container.innerHTML += `<div class="md-col-3 xs-col-12" id="${element.id}">
+    row_container.innerHTML += `<div class="md-lg-col xs-sm-col-12" id="${element.id}">
     <img class="img-thumbnail" src="${element.picture}"/>
     ${element.price} ${element.isAvailable} ${element.createdAt}
     ${element.color} ${element.brand} ${element.ram}
