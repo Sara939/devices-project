@@ -38,6 +38,19 @@ img{
 
 th, tr, td{
     border: 2px solid black;
+    font-size: medium;
+    font-weight: bolder;
+}
+th{
+    color: white;
+    
+}
+
+#users_table
+{
+    background-image: url(/imges/background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 @media (max-width: 992px){
@@ -46,3 +59,4 @@ th, tr, td{
     }
 
 }
+

@@ -13,6 +13,7 @@
 body{
     margin-bottom: 10vh;
     margin-top: 7vh;
+    background-color: #cd902039;
 }
 
 #header{
@@ -26,7 +27,9 @@ img{
 #main{
     grid-area: main;
     padding: 5%;
+
 }
+
 .footer{
    grid-area: footer;
 

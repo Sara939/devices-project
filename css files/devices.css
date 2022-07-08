@@ -30,7 +30,6 @@ img{
     padding: 7%;
     height: 100vh;
 
-
 }
 .footer{
    grid-area: footer;
@@ -42,6 +41,7 @@ img{
 
 .img-thumbnail{
     width:50%;
+    background-color: #cd902039;
 
 }
 button{
