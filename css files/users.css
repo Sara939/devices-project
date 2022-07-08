@@ -10,6 +10,11 @@
     height: 100%;
 }
 
+body{
+    margin-bottom: 10vh;
+    margin-top: 7vh;
+}
+
 #header{
     grid-area: header;
 }
@@ -22,9 +27,8 @@ img{
     grid-area: main;
     padding: 7%;
 
-
 }
-.footer{
+#footer{
    grid-area: footer;
 }
 .text-center{

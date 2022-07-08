@@ -9,6 +9,10 @@
     padding:2px;
     height: 100%;
 }
+body{
+    margin-bottom: 10vh;
+    margin-top: 7vh;
+}
 
 #header{
     grid-area: header;
