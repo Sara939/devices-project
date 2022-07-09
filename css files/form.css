@@ -13,7 +13,8 @@
 body{
     margin-bottom: 10vh;
     margin-top: 7vh;
-    background-color: #cd902039;
+    /* background-color: #cd902039; */
+    
 }
 
 #header{
@@ -37,13 +38,14 @@ img{
 }
 
 #addingform{
-    border: 2px solid black;
+    border: 5px solid black;
     border-radius: 2%;
     width: 50%;
     margin: auto;
     padding: 3%;
     display: flex;
     flex-wrap: wrap;
+    background-color: #f0c076;
 }
 
 
